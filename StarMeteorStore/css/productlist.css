@@ -1,0 +1,118 @@
+/* 内容开始 */
+.content{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.content .title{
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+}
+/* 内容结束 */
+/* 手机商品开始 */
+.phone-box{
+    width: 100%;
+    height: 600px;
+}
+.phone-box-left{
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+.phone-box-left img{
+    width: 100%;
+    height: 100%;
+}
+.phone-box-right{
+    width: 1000px;
+    height: 600px;
+    float: left;
+}
+.item{
+    /* 1000 - 16*4 = 936 / 4 = 234 */
+    width: 234px;
+    height: 292px;
+    margin: 0 0 16px 16px;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    float: left;
+    transition: all 0.2s linear;
+}
+.item:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.item-img{
+    width: 160px;
+    margin-bottom: 10px;
+}
+.item-name{
+    width: 214px;
+    height: 20px;
+    color: #333;
+    line-height: 20px;
+    margin: 0 auto 4px;
+}
+.item-desc{
+    width: 214px;
+    height: 18px;
+    color: #b0b0b0;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto 10px;
+    overflow-x: hidden;
+}
+.item-price{
+    color: #ff6700;
+    font-size: 15px;
+}
+.ad-img{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+}
+.ad-img img{
+    width: 100%;
+    height: 100%;
+}
+/* 手机商品结束 */
+/* 家电商品开始 */
+.elc-box{
+    width: 100%;
+    height: 600px;
+}
+.elc-item{
+    width: 200px;
+    padding: 0;
+    margin-left: 0;
+}
+.elc-item img{
+    width: 100%;
+    height: 100%;
+}
+.item-price del{
+    color: #b0b0b0;
+    margin-left: 10px;
+}
+.item-last{
+    width: 234px;
+    height: 292px;
+    margin: 0 0 16px 16px;
+    float: left;
+}
+.item-last .brick{
+    width: 234px;
+    height: 138px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    transition: all 0.2s linear;
+}
+.item-last .brick:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+/* 家电商品结束 */
